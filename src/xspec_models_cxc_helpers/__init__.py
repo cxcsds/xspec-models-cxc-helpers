@@ -43,7 +43,8 @@ DATALOC: str = "xspec_models_cxc_helpers.data"
 # module. See get_xspec_libs().
 #
 LIBNAMES: list[str] = ["XSFunctions", "XSUtil", "XS", "hdsp",
-                       "cfitsio", "CCfits", "wcs"]
+                       "cfitsio", "CCfits", "wcs",
+                       "XSCore", "XSData", "XSFit", "XSFunctions", "XSMinuit", "XSModel", "XSPlot", "XSPy", "XSSim", "XSStat", "XSUser", "XSUtil"]
 
 
 
